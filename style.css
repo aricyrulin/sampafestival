@@ -82,7 +82,7 @@ img {
 .theme-lightest {
     --bg: var(--lightest-clr);
     --body: var(--darkest-clr);
-    --title: var(--darkest-clr);
+    --title: var(--dark-clr);
 }
 
 /* typography */
@@ -234,13 +234,13 @@ header h1 {
 }
 
 .palcos-section {
-    padding: 1em;
-    border: 1px solid var(--dark-clr);
+    padding: 2em 1em 3em;
+    background-color: rgb(255, 246, 232);
 }
 
 .palcos-section .section__title {
-    padding-bottom: .5em;
-    color: var(--dark-clr);
+    padding-bottom: 1em;
+    color: var(--medium-clr);
 }
 
 .palcos {
