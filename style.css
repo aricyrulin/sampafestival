@@ -261,8 +261,8 @@ header h1 {
     align-items: center;
 }
 
-.palco__text > * {
-    max-width: 50ch;
+.palco-box > * {
+    max-width: 35ch;
 }
 
 .palco__title {
@@ -354,6 +354,11 @@ footer .section__title {
 
 .social li + li {
     margin-left: .5em;
+}
+
+.social img {
+    height: 2rem;
+    width: auto;
 }
 
 @media only screen and (min-width: 500px) {
