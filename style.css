@@ -251,6 +251,7 @@ header h1 {
 
 .palcos p {
     line-height: 1.5;
+    text-align: justify;
 }
 
 .palco-box {
@@ -305,6 +306,11 @@ header h1 {
     margin-top: 1.5em;
 }
 
+.fotos img {
+    width: 125px;
+    height: auto;
+}
+
 .fotos img:hover {
     transform: scale(1.02, 1.02);
 }
@@ -314,7 +320,7 @@ header h1 {
 }
 
 .patrocinadores img {
-    width: 80px;
+    width: 50px;
     height: auto;
 }
 
@@ -323,11 +329,12 @@ header h1 {
 }
 
 footer {
-    padding: 1em 2em;
+    padding: 1em;
 }
 
 footer .section__title {
     padding-bottom: .5em;
+    font-size: 1.4rem;
 }
 
 .container {
@@ -337,7 +344,7 @@ footer .section__title {
 }
 
 .logo {
-    width: 75px;
+    width: 50px;
     height: auto;
 }
 
@@ -346,12 +353,28 @@ footer .section__title {
 }
 
 .social li + li {
-    margin-left: 1em;
+    margin-left: .5em;
 }
 
-.social img {
-    width: 2.4rem;
-    height: auto;
+@media only screen and (min-width: 500px) {
+    .fotos img {
+        width: 200px;
+        height: auto;
+    }
+
+    .patrocinadores img {
+        width: 75px;
+        height: auto;
+    }
+
+    footer .section__title {
+        font-size: 1.8rem;
+    }
+
+    .social img {
+        height: 2.4rem;
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 800px) {
